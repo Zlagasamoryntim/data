@@ -1,0 +1,38 @@
+
+ "timeline": [], 
+ "nodes": [
+  {
+   "type": "A", 
+   "id": 0
+  }, 
+  {
+   "type": "B", 
+   "id": 1
+  }, 
+  {
+   "type": "C", 
+   "id": 2
+  }
+ ], 
+ "meta": {}, 
+ "edges": [
+  {
+   "src": 0, 
+   "dst": 1, 
+   "type": "normal", 
+   "id": 0
+  }, 
+  {
+   "src": 0, 
+   "dst": 2, 
+   "type": "normal", 
+   "id": 1
+  }, 
+  {
+   "src": 1, 
+   "dst": 2, 
+   "type": "irregular", 
+   "id": 2
+  }
+ ]
+}
